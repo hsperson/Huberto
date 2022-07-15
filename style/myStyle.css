@@ -1,0 +1,91 @@
+body {
+    background-color: yellow;
+    background-image: url(golden-retriever-royalty-free-image-506756303-1560962726.jpg);
+    background-size: cover;
+    
+}
+.listTitle
+{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color:blue
+}
+img {
+    border: solid rgb(123, 230, 123);
+    border-radius: 20px;
+    padding:20px;
+    background-color: rgb(0, 0, 255);
+}
+.click-me-button {
+    display: block;
+    background-color: blue;
+    color: yellow;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 1s;
+}
+.click-me-button:hover {
+    background-color: yellow;
+    cursor:no-drop
+}
+.click-me-button:active {
+    color:yellow
+}
+.click-button {
+    background-color: greenyellow;
+    color: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    transition: box-shadow 1s;
+}
+.click-button:hover {
+        box-shadow: 0px 0px 10px rgba (0, 0, 0, 0.6);
+        cursor: pointer;
+    }
+    table {
+        border: solid 1px aqua;
+        padding: 10px
+    }
+    td {
+        padding: 10px;
+        border: solid 1px aqua
+    }
+    .highLightText {
+        font-weight: bold;
+    }
+    .underlineText {
+        text-decoration: underline;
+        font-style: italic;
+    }
+    header ul {
+        float:right;
+        list-style: none;
+        color:aqua;
+        margin-right: 50px;
+    }
+    .font {
+        color:aqua
+    }
+    header li {
+        display:inline-block;
+        margin: 15px;
+        font-size: 20px;
+        border: aqua solid 2px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    header a {
+        text-decoration: none;
+        color:black;
+    }
+    #active {
+        background-color: aqua;
+        color:black;
+        font-weight: bold;
+    }
